@@ -1,0 +1,17 @@
+Source: firmware-ov5640
+Section: non-free/kernel
+Priority: optional
+Maintainer: Arnaud Ferraris <arnaud.ferraris@gmail.com>
+Build-Depends: debhelper-compat (= 13)
+Rules-Requires-Root: no
+Standards-Version: 4.5.0
+Homepage: https://gitlab.com/mobian1/devices/firmware-ov5640
+Vcs-Git: https://gitlab.com/mobian1/devices/firmware-ov5640.git
+Vcs-Browser: https://gitlab.com/mobian1/devices/firmware-ov5640
+
+Package: firmware-ov5640
+Architecture: all
+Depends: ${misc:Depends}
+Description: binary firmware for the OV5640 camera sensor driver
+ This package contains the firmware to be used with the ov5640 Linux kernel
+ driver for the OV5640 camera sensor.
